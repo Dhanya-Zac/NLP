@@ -15,3 +15,9 @@ For deep learning tasks in NLP:
 - PyTorch: Easier to use than TensorFlow.
 - MXNet and JAX: Moderate learning curve.
 - Keras: Easiest to use among deep learning libraries.
+
+#Transformer
+Transformer, is a neural network architecture used in natural language processing. 
+The transformer is made up of two parts, an encoder and a decoder. The encoder takes a sequence of input data, such as a sentence in a language, and converts it into a sequence of vectors. To preserve the positional information of words in the input sequence, transformers incorporate positional encoding vectors. These vectors provide information about the position of each word in the sequence and are added to the word embeddings before feeding them into the transformer layers. This ensures that the transformer can distinguish between words based on their position in the sequence. The core of the encoder neural network consists of multiple identical layers of transformer blocks. Each transformer block typically includes two main sub components, the self-attention mechanism, and the feed forward neural network. The self-attention mechanism allows each token in the sequence to attend to all other tokens, capturing dependencies and relationships between words at different positions in the sequence. 
+<img width="802" height="471" alt="image" src="https://github.com/user-attachments/assets/3b76418b-4eba-4999-b1f9-d48e48a0ad35" />
+
